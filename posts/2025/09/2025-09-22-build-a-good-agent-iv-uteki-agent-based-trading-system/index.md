@@ -1,6 +1,8 @@
 ---
 title: "Build A Good Agent IV. Uteki: Agent-based Trading System"
-date: "2025-09-22"
+date: "2025-09-19 14:35"
+first_sync: "2025-09-23 23:04"
+last_update: "2025-09-23 23:04"
 tags: []
 categories: []
 author: "Muses"
