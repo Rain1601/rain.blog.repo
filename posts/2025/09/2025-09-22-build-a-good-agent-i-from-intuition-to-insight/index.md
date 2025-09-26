@@ -1,8 +1,8 @@
 ---
 title: "Build A Good Agent I. From intuition to insight"
 date: "2025-09-14 04:33"
-first_sync: "2025-09-26 18:59"
-last_update: "2025-09-26 18:59"
+first_sync: "2025-09-26 19:00"
+last_update: "2025-09-26 19:00"
 tags: []
 categories: []
 author: "Muses"
