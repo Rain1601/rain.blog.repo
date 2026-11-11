@@ -9,3 +9,11 @@ poster: /notes/2026-11-05-claude-codex.jpg
 好奇之下，回头翻了翻 Codex 的排查过程，发现它在排查思路、防御编程和与人协作这三块，都走了比较多弯路。于是和 Opus 5.5 一起整理了一份系统提示词，更新后让 Codex 重新修复，这次在几乎无人参与的条件下花了 40 分钟修好。后面做其他需求和修 Bug 时，也明显感觉比之前顺手了一些。
 
 听说后面的 6.2 会改善防御性编程过重的问题（以及可能再也用不了 Codex 小丑脸），这份提示词可能很快就过时（用不到）了。不过这次排查和解决的过程挺有意思，分享一下～
+
+<!-- lang: en -->
+
+I was fixing a bug recently. Codex 6-Astra spent an hour and forty minutes on it and still hadn't cracked it. I switched to Claude Opus 5.5, which fixed it in thirty minutes.
+
+Curious, I went back through Codex's investigation. It had taken quite a few detours in how it debugged, how much defensive code it wrote, and how it worked with me. So I put together a system prompt with Opus 5.5 and had Codex try the same fix again. This time it finished in forty minutes with almost no input from me. It also felt noticeably easier to work with on later features and bug fixes.
+
+I've heard 6.2 will dial back the defensive coding (and we might never see the Codex clown face again), so this prompt may be obsolete soon. Still, I had fun figuring out what went wrong and fixing it, so I thought I'd share.
